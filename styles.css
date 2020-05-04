@@ -78,7 +78,7 @@ body{
 
 .fillx{
     background-color: brown;
-    background-image: url('img/X.png');
+    background-image: url('X.png');
     background-size: 15vh 15vh;
     height: 15vh;
     width: 15vh;
@@ -88,7 +88,7 @@ body{
 
 .fillo{
     background-color: brown;
-    background-image: url('img/O.png');
+    background-image: url('O.png');
     background-size: 15vh 15vh;
     height: 15vh;
     width: 15vh;
