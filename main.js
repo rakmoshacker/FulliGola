@@ -34,6 +34,7 @@ function click() {
             selected.classList.add('empty');
             this.classList.remove('empty');
             this.classList.add(className);
+            changePlayer(className);
             checkWinning();
         }
         else{
@@ -83,7 +84,6 @@ function currentPlayer(e){
     }
     else if (className == player )
     {
-        changePlayer(className);
         return true;
     }
     else{
